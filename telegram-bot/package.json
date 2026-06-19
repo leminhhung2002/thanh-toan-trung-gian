@@ -1,0 +1,48 @@
+{
+  "name": "telegram-bot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build:deps": "pnpm --dir .. --filter @nganluong/notification-contracts build",
+    "prebuild": "pnpm run build:deps",
+    "prestart:dev": "pnpm run build:deps",
+    "pretest": "pnpm run build:deps",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/main.js",
+    "start:dev": "ts-node src/main.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.3",
+    "@nestjs/core": "^11.0.1",
+    "@nestjs/microservices": "^11.0.1",
+    "@nganluong/notification-contracts": "workspace:*",
+    "amqp-connection-manager": "^5.0.0",
+    "amqplib": "^1.0.3",
+    "grammy": "^1.42.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.2",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "5.9.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testEnvironment": "node"
+  }
+}

@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: var(--user-shell-max-width);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.logoImage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.logoTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoTextMain {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0b2545;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+
+.logoTextSub {
+  font-size: 9px;
+  color: #666;
+  margin-top: 3px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0b2545;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #17406b;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background-color: #ffffff;
+}
+
+.input:focus {
+  border-color: #17406b;
+}
+
+.input::placeholder {
+  color: #b0b0b0;
+  font-size: 13px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.btnBack,
+.btnContinue {
+  width: 120px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBack {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+.btnBack:hover {
+  background-color: #d0d0d0;
+}
+
+.btnContinue {
+  background-color: #e0e0e0;
+  color: #ffffff;
+}
+
+.btnContinueActive {
+  background-color: #ff6b00;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 15px 20px;
+  }
+}

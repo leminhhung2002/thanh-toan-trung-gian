@@ -1,0 +1,21 @@
+.button {
+  position: relative;
+}
+
+.badge {
+  align-items: center;
+  background: #e74c3c;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 18px;
+  min-width: 18px;
+  padding: 0 5px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}

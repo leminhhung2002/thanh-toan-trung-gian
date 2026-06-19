@@ -1,0 +1,111 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1775205343548,
+      "tag": "0000_fresh_morgan_stark",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775205553892,
+      "tag": "0001_lucky_unicorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775208000000,
+      "tag": "0002_bank_account_fallback",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1775211600000,
+      "tag": "0003_deposit_reservations",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1775303400000,
+      "tag": "0004_deposit_reservation_accounting",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1775307180000,
+      "tag": "0005_realtime_exchange_and_withdrawal_fees",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1775308200000,
+      "tag": "0006_bank_account_hardening",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1775310000000,
+      "tag": "0007_notification_outbox",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1775330400000,
+      "tag": "0008_user_two_factor",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1775578200000,
+      "tag": "0009_admin_exchange_profit",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1775704500000,
+      "tag": "0010_telegram_runtime_config",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1775940000000,
+      "tag": "0011_user_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1776038400000,
+      "tag": "0012_pending_request_cancellations",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1776124800000,
+      "tag": "0013_exchange_order_reversal",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1776902400000,
+      "tag": "0014_drop_user_two_factor",
+      "breakpoints": true
+    }
+  ]
+}

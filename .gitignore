@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+api/.env
+api/.env.local
+client/.env
+client/.env.local
+telegram-bot/.env
+telegram-bot/.env.local
+
+# Build outputs
+api/dist/
+telegram-bot/dist/
+client/dist/
+client/dist-ssr/
+packages/notification-contracts/dist/
+
+# Tool caches
+client/.tanstack/
+client/.nitro/
+client/.output/
+client/.vinxi/
+client/.wrangler/
+client/node_modules/.vite/
+
+# Coverage and temporary artifacts
+coverage/
+todos.json
+__unconfig*
+*.tsbuildinfo
+*.log
+logs/pm2/*.log
+
+# Workspace lockfile is kept at the repo root only
+api/pnpm-lock.yaml
+client/pnpm-lock.yaml
+telegram-bot/pnpm-lock.yaml
+
+# OS files
+.DS_Store
